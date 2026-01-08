@@ -1,1 +1,20 @@
+# Backend language priority
 *.java linguist-dominant
+
+# Frontend languages
+*.html linguist-language=HTML
+*.css linguist-language=CSS
+*.js linguist-language=JavaScript
+
+# Database files
+*.sql linguist-language=SQL
+
+# Ignore generated / vendor files
+node_modules/* linguist-vendored
+dist/* linguist-vendored
+build/* linguist-vendored
+target/* linguist-vendored
+
+# Ignore config & logs
+*.log linguist-generated
+*.lock linguist-generated
